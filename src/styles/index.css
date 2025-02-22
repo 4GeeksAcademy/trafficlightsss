@@ -10,3 +10,34 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.fondo {
+    background-image: url('https://i.ibb.co/3yFFNV51/fondo.png'); /* Sostituisci con l'URL diretto */
+    background-size: cover; /* Adatta l'immagine all'elemento */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita ripetizioni */
+    width: 100vw; /* Larghezza dell'intera finestra */
+    height: 100vh; /* Altezza dell'intera finestra */
+}
+
+.trafficborder {
+    border: 1px black solid;
+    border-radius: 15%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8.5%;
+    height: auto;
+    margin-top: 26%;
+    background-color:darkturquoise;
+
+}
+
+.palito {
+    border: 10px black solid;
+    width: 10px; /* Define un ancho fijo */
+    height: 50px; /* Ajusta la altura según necesites */
+    margin: 0 auto; /* Centra horizontalmente */
+    display: block;
+    margin-bottom: 10%;
+}
